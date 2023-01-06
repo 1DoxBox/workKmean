@@ -1,6 +1,7 @@
 from sklearn.cluster import DBSCAN
 from sklearn import metrics
 import readcsv
+
 result = readcsv.read_csv()
 x = result.iloc[:, [8, 9]].values
 

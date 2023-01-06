@@ -1,6 +1,4 @@
-import pandas as pd
 import readcsv
-from sklearn import preprocessing
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
